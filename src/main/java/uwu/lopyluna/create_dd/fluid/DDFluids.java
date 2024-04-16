@@ -316,7 +316,6 @@ public class DDFluids {
                             .motionScale(-1.25)
                             .supportsBoating(false)
                             .canExtinguish(false)
-                            .canConvertToSource(true)
                             .pathType(BlockPathTypes.LAVA)
                             .sound(SoundActions.BUCKET_FILL, DDSoundEvents.shimmer_fill.get())
                             .sound(SoundActions.BUCKET_EMPTY, DDSoundEvents.shimmer_empty.get())
